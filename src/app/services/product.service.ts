@@ -12,7 +12,7 @@ export class ProductService {
 
   public fetchAllData(): Observable<any> {
 
-       return this.http.get(`${this.apiUrl}/product`);
+    return this.http.get(`${this.apiUrl}/product`);
   }
 
   public fetchData(id : any): Observable<any> {
